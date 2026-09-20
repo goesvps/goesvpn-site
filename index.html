@@ -575,7 +575,7 @@
       </div>
       <div style="grid-column:1 / -1;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
         <x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Button" hint-size="auto,48px" size="lg">{{ contactCta }}</x-import>
-        <span style="color:var(--text-muted);font-size:12px">🔒 Seus dados estão seguros. Sem spam, prometemos!</span>
+        <span style="color:var(--text-muted);font-size:12px">💬 Ao enviar, abrimos o WhatsApp com sua mensagem já pronta.</span>
       </div>
     </form>
   </section>
@@ -667,7 +667,19 @@ class Component extends DCLogic {
   onEmailChange = (e) => this.setState({ email: e.target.value });
   onWhatsappChange = (e) => this.setState({ whatsapp: e.target.value });
   onMessageChange = (e) => this.setState({ message: e.target.value });
-  submitContact = (e) => { e.preventDefault(); this.setState({ sent: true }); };
+  submitContact = (e) => {
+    e.preventDefault();
+    const { name, email, whatsapp, message } = this.state;
+    const lines = [
+      `Olá! Meu nome é ${name || '(não informado)'}.`,
+      `E-mail: ${email || '(não informado)'}`,
+      `WhatsApp: ${whatsapp || '(não informado)'}`,
+      '',
+      message || 'Gostaria de mais informações.',
+    ].join('\n');
+    window.open(`https://wa.me/5551981651071?text=${encodeURIComponent(lines)}`, '_blank');
+    this.setState({ sent: true });
+  };
 
   renderVals() {
     const isMobile = this.state.isMobile;
@@ -699,7 +711,7 @@ class Component extends DCLogic {
       message: this.state.message,
       onMessageChange: this.onMessageChange,
       submitContact: this.submitContact,
-      contactCta: this.state.sent ? 'Enviado ✅' : 'Enviar mensagem',
+      contactCta: this.state.sent ? 'Aberto no WhatsApp ✅' : 'Enviar pelo WhatsApp',
       faqs: FAQS.map((f, i) => ({
         q: f.q,
         a: f.a,
