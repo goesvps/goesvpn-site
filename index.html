@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GoesVPN — Criação de Sites, SEO, GEO, AEO e Automação | Marketplace Digital</title>
+<meta name="description" content="A GoesVPN cria sites, faz SEO, GEO (otimização para IAs generativas) e AEO (otimização para motores de resposta), automatiza atendimento e mantém a loja.goesvpn.com.br, marketplace de produtos digitais no Brasil.">
+<link rel="canonical" href="https://goesvpn.com.br/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#04070D">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GoesVPN">
+<meta property="og:title" content="GoesVPN — Criação de Sites, SEO, GEO, AEO e Automação">
+<meta property="og:description" content="Sites, SEO, GEO, AEO e automação para o seu negócio — além do marketplace digital loja.goesvpn.com.br.">
+<meta property="og:url" content="https://goesvpn.com.br/">
+<meta property="og:image" content="https://goesvpn.com.br/assets/logo-white-bg.png">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GoesVPN — Criação de Sites, SEO, GEO, AEO e Automação">
+<meta name="twitter:description" content="Sites, SEO, GEO, AEO e automação para o seu negócio — além do marketplace digital loja.goesvpn.com.br.">
+<meta name="twitter:image" content="https://goesvpn.com.br/assets/logo-white-bg.png">
+
+<!-- Structured data: kept in plain HTML (not inside <helmet>) so it is readable by crawlers
+     that fetch raw HTML without executing JavaScript (GPTBot, ClaudeBot, PerplexityBot, etc.) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://goesvpn.com.br/#organization",
+      "name": "GoesVPN",
+      "url": "https://goesvpn.com.br/",
+      "logo": "https://goesvpn.com.br/assets/logo-white-bg.png",
+      "description": "GoesVPN é uma empresa brasileira de tecnologia que cria sites, faz SEO, GEO e AEO, automatiza atendimento e mantém a loja.goesvpn.com.br, marketplace de produtos digitais.",
+      "sameAs": [
+        "https://www.instagram.com/goesvpn",
+        "https://www.linkedin.com/in/gianigoes/"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+55-51-98165-1071",
+        "areaServed": "BR",
+        "availableLanguage": "Portuguese"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://goesvpn.com.br/#website",
+      "url": "https://goesvpn.com.br/",
+      "name": "GoesVPN",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": "https://goesvpn.com.br/#organization" }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://goesvpn.com.br/#servico-sites",
+      "name": "Criação de Sites",
+      "url": "https://goesvpn.com.br/#servicos",
+      "description": "Sites institucionais e landing pages rápidos, responsivos e já estruturados para SEO desde a primeira linha de código.",
+      "provider": { "@id": "https://goesvpn.com.br/#organization" },
+      "areaServed": "BR",
+      "serviceType": "Web design and development"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://goesvpn.com.br/#servico-seo",
+      "name": "SEO — Otimização para Buscadores",
+      "url": "https://goesvpn.com.br/#servicos",
+      "description": "Otimização técnica, conteúdo estratégico e autoridade de domínio para o site aparecer nas primeiras posições do Google.",
+      "provider": { "@id": "https://goesvpn.com.br/#organization" },
+      "areaServed": "BR",
+      "serviceType": "Search engine optimization"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://goesvpn.com.br/#servico-geo",
+      "name": "GEO — Otimização para IAs Generativas",
+      "url": "https://goesvpn.com.br/#servicos",
+      "description": "Estruturação de conteúdo e dados para que ChatGPT, Gemini, Perplexity e Claude encontrem, entendam e recomendem a marca.",
+      "provider": { "@id": "https://goesvpn.com.br/#organization" },
+      "areaServed": "BR",
+      "serviceType": "Generative engine optimization"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://goesvpn.com.br/#servico-aeo",
+      "name": "AEO — Otimização para Motores de Resposta",
+      "url": "https://goesvpn.com.br/#servicos",
+      "description": "Conteúdo formatado para ser a resposta direta em buscas por voz, AI Overviews e mecanismos de resposta rápida.",
+      "provider": { "@id": "https://goesvpn.com.br/#organization" },
+      "areaServed": "BR",
+      "serviceType": "Answer engine optimization"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://goesvpn.com.br/#servico-automacao",
+      "name": "Automação de Atendimento e Processos",
+      "url": "https://goesvpn.com.br/#servicos",
+      "description": "Chatbots, fluxos de WhatsApp e integrações que automatizam atendimento, vendas e tarefas repetitivas.",
+      "provider": { "@id": "https://goesvpn.com.br/#organization" },
+      "areaServed": "BR",
+      "serviceType": "Business process automation"
+    },
+    {
+      "@type": "HowTo",
+      "name": "Como funciona a Minha Loja da GoesVPN",
+      "step": [
+        { "@type": "HowToStep", "name": "Cadastre-se", "text": "Crie sua conta gratuita como comprador, produtor ou afiliado em poucos minutos." },
+        { "@type": "HowToStep", "name": "Explore ou publique", "text": "Navegue pelo catálogo ou publique seus próprios cursos, e-books e templates." },
+        { "@type": "HowToStep", "name": "Compre com segurança", "text": "Pague com Pix, cartão ou boleto. Toda transação é protegida e monitorada." },
+        { "@type": "HowToStep", "name": "Receba na hora", "text": "Acesso liberado automaticamente. Produtores recebem o repasse sem burocracia." }
+      ]
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Como funciona a entrega dos produtos?", "acceptedAnswer": { "@type": "Answer", "text": "Após a confirmação do pagamento, o acesso é liberado automaticamente — sem espera e sem intervenção manual." } },
+    { "@type": "Question", "name": "Quais formas de pagamento são aceitas?", "acceptedAnswer": { "@type": "Answer", "text": "Pix, cartão de crédito e boleto bancário, com processamento seguro em todas as transações." } },
+    { "@type": "Question", "name": "Posso vender meus próprios produtos?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Basta se cadastrar como produtor e publicar cursos, e-books, templates, planilhas ou softwares no catálogo." } },
+    { "@type": "Question", "name": "Existe garantia para o comprador?", "acceptedAnswer": { "@type": "Answer", "text": "Todas as compras têm garantia de 7 dias. Se não for o que esperava, devolvemos seu dinheiro." } },
+    { "@type": "Question", "name": "Como funciona o programa de afiliados?", "acceptedAnswer": { "@type": "Answer", "text": "Afiliados recebem um link exclusivo e ganham comissão por cada venda realizada através dele." } },
+    { "@type": "Question", "name": "A GoesVPN cria sites para outras empresas?", "acceptedAnswer": { "@type": "Answer", "text": "Sim. Além da Minha Loja, a GoesVPN desenvolve sites institucionais e landing pages já otimizados para SEO, GEO e AEO desde o primeiro dia." } },
+    { "@type": "Question", "name": "O que é GEO (Generative Engine Optimization)?", "acceptedAnswer": { "@type": "Answer", "text": "GEO é o conjunto de técnicas para otimizar um site e seu conteúdo para que IAs generativas, como ChatGPT, Gemini e Perplexity, encontrem, compreendam e recomendem a marca em suas respostas." } },
+    { "@type": "Question", "name": "O que é AEO (Answer Engine Optimization)?", "acceptedAnswer": { "@type": "Answer", "text": "AEO é a otimização de conteúdo para aparecer como resposta direta em buscas por voz, AI Overviews e mecanismos de resposta rápida, geralmente usando formatos de pergunta e resposta e dados estruturados." } },
+    { "@type": "Question", "name": "O que está incluso no serviço de automação?", "acceptedAnswer": { "@type": "Answer", "text": "Chatbots de atendimento, automação de fluxos no WhatsApp, integrações com CRM e ferramentas como n8n e Zapier, além de automação de processos de vendas e marketing." } }
+  ]
+}
+</script>
+
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/goesvpn-design-system-bde8bfa8-c190-4b18-a23f-504c25bcca17/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/goesvpn-design-system-bde8bfa8-c190-4b18-a23f-504c25bcca17/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/goesvpn-design-system-bde8bfa8-c190-4b18-a23f-504c25bcca17/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/goesvpn-design-system-bde8bfa8-c190-4b18-a23f-504c25bcca17/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/goesvpn-design-system-bde8bfa8-c190-4b18-a23f-504c25bcca17/tokens/effects.css">
+  <link rel="stylesheet" href="_ds/goesvpn-design-system-bde8bfa8-c190-4b18-a23f-504c25bcca17/base.css">
+  <link rel="stylesheet" href="_ds/goesvpn-design-system-bde8bfa8-c190-4b18-a23f-504c25bcca17/styles.css">
+  <script src="_ds/goesvpn-design-system-bde8bfa8-c190-4b18-a23f-504c25bcca17/_ds_bundle.js"></script>
+  <style>
+    body{background:var(--black-deep);margin:0}
+    * { box-sizing: border-box; text-wrap: pretty; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: var(--accent-hover); }
+    @keyframes drift {
+      0%,100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(-18px); }
+    }
+
+    /* Futuristic surface texture: a faint circuit-grid, reused across dark sections */
+    .gvpn-grid-bg {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(var(--border-subtle) 1px, transparent 1px),
+        linear-gradient(90deg, var(--border-subtle) 1px, transparent 1px);
+      background-size: 44px 44px;
+      -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 0%, transparent 75%);
+      mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black 0%, transparent 75%);
+      opacity: .6;
+    }
+
+    @keyframes gvpn-float {
+      0%,100% { transform: translateY(0) scale(1); opacity: .5; }
+      50% { transform: translateY(-24px) scale(1.15); opacity: 1; }
+    }
+    .gvpn-particle {
+      position: absolute;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 12px var(--cyan-neon-35);
+      animation: gvpn-float 6s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    .gvpn-gradient-text {
+      background: linear-gradient(120deg, var(--text-primary) 35%, var(--accent) 85%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+
+    @keyframes gvpn-shimmer {
+      0% { background-position: -200% 0; }
+      100% { background-position: 200% 0; }
+    }
+    .gvpn-shimmer-border {
+      position: relative;
+    }
+    .gvpn-shimmer-border::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      padding: 1px;
+      background: linear-gradient(90deg, var(--cyan-neon-35), var(--accent), var(--cyan-neon-35), transparent, var(--cyan-neon-35));
+      background-size: 220% 100%;
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      animation: gvpn-shimmer 3.5s linear infinite;
+      pointer-events: none;
+    }
+
+    .gvpn-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: var(--radius-pill);
+      background: var(--surface-card);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: var(--fw-medium);
+      transition: border-color .2s ease, color .2s ease, background .2s ease, transform .2s ease;
+    }
+    .gvpn-chip:hover {
+      border-color: var(--cyan-neon-35);
+      color: var(--text-primary);
+      background: var(--surface-card-hover);
+      transform: translateY(-2px);
+    }
+
+    .gvpn-badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: var(--fw-bold);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--black-deep);
+      background: var(--accent);
+      padding: 3px 10px;
+      border-radius: var(--radius-pill);
+    }
+
+    .gvpn-step-tag {
+      font-family: monospace;
+      color: var(--accent);
+      font-size: 13px;
+      letter-spacing: .04em;
+      opacity: .85;
+    }
+
+    .gvpn-fade-divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--border-default), transparent);
+    }
+  </style>
+</helmet>
+
+<div style="background:var(--black-deep);min-height:100vh;font-family:var(--font-body)">
+
+  <header style="position:sticky;top:16px;z-index:30;width:calc(100% - 32px);max-width:920px;margin:16px auto 0;background:rgba(10,17,30,.78);backdrop-filter:blur(14px);border:1px solid var(--border-subtle);border-radius:var(--radius-pill);box-shadow:var(--shadow-elevated)">
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 12px 10px 20px">
+      <div style="display:flex;align-items:center;gap:10px">
+        <img src="assets/logo-white-bg.png" alt="GoesVPN" style="height:32px;background:#fff;border-radius:8px;padding:2px">
+        <span style="font-family:var(--font-display);font-weight:var(--fw-black);color:var(--text-primary);font-size:18px;letter-spacing:-.01em">GoesVPN</span>
+      </div>
+      <nav style="display:{{ navDisplay }};gap:32px">
+        <a href="#sobre" style="color:var(--text-secondary);font-size:14px;font-weight:500;transition:color .2s ease" style-hover="color:var(--accent)">Sobre</a>
+        <a href="#servicos" style="color:var(--text-secondary);font-size:14px;font-weight:500;transition:color .2s ease" style-hover="color:var(--accent)">Serviços</a>
+        <a href="#como-funciona" style="color:var(--text-secondary);font-size:14px;font-weight:500;transition:color .2s ease" style-hover="color:var(--accent)">Como funciona</a>
+        <a href="#planos" style="color:var(--text-secondary);font-size:14px;font-weight:500;transition:color .2s ease" style-hover="color:var(--accent)">Planos</a>
+        <a href="#faq" style="color:var(--text-secondary);font-size:14px;font-weight:500;transition:color .2s ease" style-hover="color:var(--accent)">FAQ</a>
+      </nav>
+      <div style="display:flex;align-items:center;gap:14px">
+        <a href="https://loja.goesvpn.com.br" style="display:{{ navDisplay }}" target="_blank">
+          <x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Button" hint-size="auto,40px" size="sm">Acessar loja</x-import>
+        </a>
+        <button onClick="{{ toggleMenu }}" aria-label="Menu" style="display:{{ menuBtnDisplay }};background:transparent;border:1px solid var(--border-default);color:var(--text-primary);width:40px;height:40px;border-radius:var(--radius-md);font-size:16px;cursor:pointer">{{ menuIconLabel }}</button>
+      </div>
+    </div>
+    <div style="{{ mobileOverlayStyle }}flex-direction:column;padding:8px 20px 20px;gap:4px;border-top:1px solid var(--border-subtle);border-radius:0 0 24px 24px">
+      <a href="#sobre" onClick="{{ closeMenu }}" style="color:var(--text-secondary);font-size:15px;padding:12px 4px;border-bottom:1px solid var(--border-subtle)">Sobre</a>
+      <a href="#servicos" onClick="{{ closeMenu }}" style="color:var(--text-secondary);font-size:15px;padding:12px 4px;border-bottom:1px solid var(--border-subtle)">Serviços</a>
+      <a href="#como-funciona" onClick="{{ closeMenu }}" style="color:var(--text-secondary);font-size:15px;padding:12px 4px;border-bottom:1px solid var(--border-subtle)">Como funciona</a>
+      <a href="#planos" onClick="{{ closeMenu }}" style="color:var(--text-secondary);font-size:15px;padding:12px 4px;border-bottom:1px solid var(--border-subtle)">Planos</a>
+      <a href="#faq" onClick="{{ closeMenu }}" style="color:var(--text-secondary);font-size:15px;padding:12px 4px">FAQ</a>
+      <a href="https://loja.goesvpn.com.br" style="margin-top:10px" target="_blank" target="_blank">
+        <x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Button" hint-size="100%,44px" size="md">Acessar loja</x-import>
+      </a>
+    </div>
+  </header>
+
+  <section style="position:relative;padding:clamp(56px,10vw,110px) 20px clamp(60px,8vw,90px);overflow:hidden">
+    <div style="position:absolute;inset:0;height:480px;overflow:hidden;pointer-events:none">
+      <div class="gvpn-grid-bg"></div>
+      <div style="position:absolute;width:560px;height:560px;border-radius:50%;background:var(--cyan-neon-14);top:-260px;left:50%;animation:drift 10s ease-in-out infinite;filter:blur(4px)"></div>
+      <div class="gvpn-particle" style="width:5px;height:5px;top:18%;left:12%;animation-delay:0s"></div>
+      <div class="gvpn-particle" style="width:3px;height:3px;top:32%;left:82%;animation-delay:1.2s"></div>
+      <div class="gvpn-particle" style="width:4px;height:4px;top:60%;left:6%;animation-delay:2.4s"></div>
+      <div class="gvpn-particle" style="width:3px;height:3px;top:12%;left:70%;animation-delay:3.1s"></div>
+      <div class="gvpn-particle" style="width:4px;height:4px;top:48%;left:92%;animation-delay:.6s"></div>
+    </div>
+    <div style="position:relative;max-width:1200px;margin:0 auto;text-align:center">
+      <div style="color:var(--accent);font-family:var(--font-heading);font-weight:var(--fw-bold);font-size:13px;text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);margin-bottom:16px">Tecnologia que conecta</div>
+      <h1 class="gvpn-gradient-text" style="font-family:var(--font-display);font-size:clamp(32px,6vw,56px);font-weight:var(--fw-black);line-height:var(--lh-tight);max-width:820px;margin:0 auto;letter-spacing:var(--tracking-tight)">A plataforma que leva seus produtos digitais mais longe</h1>
+      <p style="color:var(--text-secondary);font-size:clamp(15px,2vw,18px);line-height:var(--lh-body);max-width:640px;margin:20px auto 24px">A GoesVPN constrói a tecnologia por trás da loja.goesvpn.com.br, onde produtores, afiliados e clientes se encontram para comprar e vender cursos, e-books, templates e muito mais. Também criamos sites e cuidamos do seu SEO, GEO e AEO, e automatizamos o atendimento do seu negócio.</p>
+      <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:32px">
+        <a href="#servicos" class="gvpn-chip">🌐 Criação de Sites</a>
+        <a href="#servicos" class="gvpn-chip">🔍 SEO</a>
+        <a href="#servicos" class="gvpn-chip">🤖 GEO</a>
+        <a href="#servicos" class="gvpn-chip">🎯 AEO</a>
+        <a href="#servicos" class="gvpn-chip">⚙️ Automação</a>
+      </div>
+      <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:clamp(48px,8vw,88px)">
+        <a href="https://loja.goesvpn.com.br" style="display:inline-block;transition:transform .2s ease" style-hover="transform:translateY(-2px) scale(1.03)" target="_blank" target="_blank">
+          <x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Button" hint-size="auto,52px" size="lg">Conhecer a loja</x-import>
+        </a>
+        <a href="#servicos" style="display:inline-block;transition:transform .2s ease" style-hover="transform:translateY(-2px) scale(1.03)">
+          <x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Button" hint-size="auto,52px" size="lg" variant="ghost">Ver serviços</x-import>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section data-comment-anchor="sobre" id="sobre" style="max-width:1200px;margin:0 auto;padding:clamp(56px,8vw,96px) 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(32px,6vw,64px);align-items:center">
+    <div>
+      <div style="color:var(--accent);font-family:var(--font-heading);font-weight:var(--fw-bold);font-size:13px;text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);margin-bottom:14px">Sobre a GoesVPN</div>
+      <h2 style="font-family:var(--font-display);font-size:clamp(26px,4vw,40px);color:var(--text-primary);margin:0 0 16px;font-weight:var(--fw-black);line-height:var(--lh-heading)">Construímos a infraestrutura por trás do comércio digital</h2>
+      <p style="color:var(--text-secondary);font-size:16px;line-height:var(--lh-body);margin:0 0 16px">Somos uma empresa brasileira de tecnologia focada em aplicativos e vitrines digitais. Nosso produto principal, a Minha Loja, conecta produtores, afiliados e compradores em um único ambiente seguro e automatizado.</p>
+      <p style="color:var(--text-secondary);font-size:16px;line-height:var(--lh-body);margin:0">Da entrega automática ao suporte a pagamentos, cuidamos da engenharia para que você foque em criar e vender.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow-card);transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+        <div style="color:var(--accent);font-family:var(--font-display);font-weight:var(--fw-black);font-size:28px">100%</div>
+        <div style="color:var(--text-muted);font-size:13px;margin-top:6px">Entrega automática após pagamento</div>
+      </div>
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow-card);transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+        <div style="color:var(--accent);font-family:var(--font-display);font-weight:var(--fw-black);font-size:28px">7 dias</div>
+        <div style="color:var(--text-muted);font-size:13px;margin-top:6px">Garantia em todas as compras</div>
+      </div>
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow-card);transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+        <div style="color:var(--accent);font-family:var(--font-display);font-weight:var(--fw-black);font-size:28px">Pix</div>
+        <div style="color:var(--text-muted);font-size:13px;margin-top:6px">Cartão e boleto aceitos</div>
+      </div>
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow-card);transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+        <div style="color:var(--accent);font-family:var(--font-display);font-weight:var(--fw-black);font-size:28px">24/7</div>
+        <div style="color:var(--text-muted);font-size:13px;margin-top:6px">Plataforma sempre disponível</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" style="position:relative;max-width:1200px;margin:0 auto;padding:clamp(56px,8vw,96px) 20px;overflow:hidden">
+    <div class="gvpn-grid-bg" style="height:100%"></div>
+    <div style="position:relative;text-align:center;margin-bottom:clamp(36px,6vw,56px)">
+      <div style="color:var(--accent);font-family:var(--font-heading);font-weight:var(--fw-bold);font-size:13px;text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);margin-bottom:14px">Além da loja</div>
+      <h2 style="font-family:var(--font-display);font-size:clamp(26px,4vw,40px);color:var(--text-primary);margin:0 0 12px;font-weight:var(--fw-black)">Serviços digitais pensados para busca e IA</h2>
+      <p style="color:var(--text-secondary);font-size:16px;max-width:640px;margin:0 auto">Criamos e otimizamos a presença digital do seu negócio para ser encontrada por pessoas, pelo Google e pelas IAs generativas.</p>
+    </div>
+    <div style="position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px">
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:28px 24px;display:flex;flex-direction:column;gap:12px;transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+        <div style="font-size:28px">🌐</div>
+        <h3 style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:17px;margin:0">Criação de Sites</h3>
+        <p style="color:var(--text-muted);font-size:14px;line-height:var(--lh-body);margin:0">Sites institucionais e landing pages rápidos, responsivos e já estruturados para SEO desde a primeira linha de código.</p>
+        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:var(--text-secondary);font-size:13px">
+          <li>Design responsivo e performático</li>
+          <li>Estrutura semântica pronta para buscadores</li>
+          <li>Integração com WhatsApp, formulários e analytics</li>
+        </ul>
+        <a href="#contato" style="margin-top:auto;color:var(--accent);font-size:13px;font-weight:var(--fw-semibold);transition:color .2s ease" style-hover="color:var(--accent-hover)">Quero um site →</a>
+      </div>
+
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:28px 24px;display:flex;flex-direction:column;gap:12px;transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+        <div style="font-size:28px">🔍</div>
+        <h3 style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:17px;margin:0">SEO</h3>
+        <p style="color:var(--text-muted);font-size:14px;line-height:var(--lh-body);margin:0">Otimização técnica, conteúdo estratégico e autoridade de domínio para o seu site aparecer nas primeiras posições do Google.</p>
+        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:var(--text-secondary);font-size:13px">
+          <li>Auditoria técnica e Core Web Vitals</li>
+          <li>Pesquisa de palavras-chave e conteúdo</li>
+          <li>Link building e SEO local</li>
+        </ul>
+        <a href="#contato" style="margin-top:auto;color:var(--accent);font-size:13px;font-weight:var(--fw-semibold);transition:color .2s ease" style-hover="color:var(--accent-hover)">Quero rankear →</a>
+      </div>
+
+      <div class="gvpn-shimmer-border" style="background:var(--surface-elevated);border:1px solid var(--cyan-neon-35);border-radius:var(--radius-lg);padding:28px 24px;box-shadow:var(--glow-accent-soft);display:flex;flex-direction:column;gap:12px;transition:transform .25s ease" style-hover="transform:translateY(-4px)">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <div style="font-size:28px">🤖</div>
+          <span class="gvpn-badge">Diferencial</span>
+        </div>
+        <h3 style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:17px;margin:0">GEO — Otimização para IAs Generativas</h3>
+        <p style="color:var(--text-muted);font-size:14px;line-height:var(--lh-body);margin:0">Estruturamos conteúdo e dados para que ChatGPT, Gemini, Perplexity e Claude encontrem, entendam e recomendem a sua marca.</p>
+        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:var(--text-secondary);font-size:13px">
+          <li>Conteúdo estruturado (schema.org, llms.txt)</li>
+          <li>Presença em fontes que as IAs consultam</li>
+          <li>Monitoramento de menções em respostas de IA</li>
+        </ul>
+        <a href="#contato" style="margin-top:auto;color:var(--accent);font-size:13px;font-weight:var(--fw-semibold);transition:color .2s ease" style-hover="color:var(--accent-hover)">Quero ser recomendado por IA →</a>
+      </div>
+
+      <div class="gvpn-shimmer-border" style="background:var(--surface-elevated);border:1px solid var(--cyan-neon-35);border-radius:var(--radius-lg);padding:28px 24px;box-shadow:var(--glow-accent-soft);display:flex;flex-direction:column;gap:12px;transition:transform .25s ease" style-hover="transform:translateY(-4px)">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <div style="font-size:28px">🎯</div>
+          <span class="gvpn-badge">Diferencial</span>
+        </div>
+        <h3 style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:17px;margin:0">AEO — Otimização para Motores de Resposta</h3>
+        <p style="color:var(--text-muted);font-size:14px;line-height:var(--lh-body);margin:0">Conteúdo formatado para ser a resposta direta em buscas por voz, AI Overviews e mecanismos de resposta rápida.</p>
+        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:var(--text-secondary);font-size:13px">
+          <li>Formato de perguntas e respostas (FAQ, HowTo)</li>
+          <li>Dados estruturados para rich snippets</li>
+          <li>Conteúdo direto e citável</li>
+        </ul>
+        <a href="#contato" style="margin-top:auto;color:var(--accent);font-size:13px;font-weight:var(--fw-semibold);transition:color .2s ease" style-hover="color:var(--accent-hover)">Quero aparecer como resposta →</a>
+      </div>
+
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:28px 24px;display:flex;flex-direction:column;gap:12px;transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+        <div style="font-size:28px">⚙️</div>
+        <h3 style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:17px;margin:0">Automação</h3>
+        <p style="color:var(--text-muted);font-size:14px;line-height:var(--lh-body);margin:0">Chatbots, fluxos de WhatsApp e integrações que automatizam atendimento, vendas e tarefas repetitivas.</p>
+        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;color:var(--text-secondary);font-size:13px">
+          <li>Atendimento automatizado no WhatsApp</li>
+          <li>Integrações com CRM, planilhas e n8n/Zapier</li>
+          <li>Fluxos de vendas e follow-up automáticos</li>
+        </ul>
+        <a href="#contato" style="margin-top:auto;color:var(--accent);font-size:13px;font-weight:var(--fw-semibold);transition:color .2s ease" style-hover="color:var(--accent-hover)">Quero automatizar →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="como-funciona" style="position:relative;background:var(--surface-bg-alt);padding:clamp(56px,8vw,96px) 20px;overflow:hidden">
+    <div class="gvpn-grid-bg"></div>
+    <div style="position:relative;max-width:1200px;margin:0 auto">
+      <div style="text-align:center;margin-bottom:clamp(36px,6vw,56px)">
+        <div style="color:var(--accent);font-family:var(--font-heading);font-weight:var(--fw-bold);font-size:13px;text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);margin-bottom:14px">Como funciona</div>
+        <h2 style="font-family:var(--font-display);font-size:clamp(26px,4vw,40px);color:var(--text-primary);margin:0;font-weight:var(--fw-black)">Do cadastro à primeira venda</h2>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px">
+        <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:28px 24px;transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+          <div class="gvpn-step-tag" style="font-size:32px;font-weight:var(--fw-black);margin-bottom:14px">[ 01 ]</div>
+          <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:17px;margin-bottom:8px">Cadastre-se</div>
+          <div style="color:var(--text-muted);font-size:14px;line-height:var(--lh-body)">Crie sua conta gratuita como comprador, produtor ou afiliado em poucos minutos.</div>
+        </div>
+        <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:28px 24px;transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+          <div class="gvpn-step-tag" style="font-size:32px;font-weight:var(--fw-black);margin-bottom:14px">[ 02 ]</div>
+          <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:17px;margin-bottom:8px">Explore ou publique</div>
+          <div style="color:var(--text-muted);font-size:14px;line-height:var(--lh-body)">Navegue pelo catálogo ou publique seus próprios cursos, e-books e templates.</div>
+        </div>
+        <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:28px 24px;transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+          <div class="gvpn-step-tag" style="font-size:32px;font-weight:var(--fw-black);margin-bottom:14px">[ 03 ]</div>
+          <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:17px;margin-bottom:8px">Compre com segurança</div>
+          <div style="color:var(--text-muted);font-size:14px;line-height:var(--lh-body)">Pague com Pix, cartão ou boleto. Toda transação é protegida e monitorada.</div>
+        </div>
+        <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:28px 24px;transition:transform .25s ease,background .25s ease,border-color .25s ease" style-hover="background:var(--surface-card-hover);border-color:var(--cyan-neon-35);transform:translateY(-4px)">
+          <div class="gvpn-step-tag" style="font-size:32px;font-weight:var(--fw-black);margin-bottom:14px">[ 04 ]</div>
+          <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:17px;margin-bottom:8px">Receba na hora</div>
+          <div style="color:var(--text-muted);font-size:14px;line-height:var(--lh-body)">Acesso liberado automaticamente. Produtores recebem o repasse sem burocracia.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos" style="max-width:1200px;margin:0 auto;padding:clamp(56px,8vw,96px) 20px">
+    <div style="text-align:center;margin-bottom:clamp(36px,6vw,56px)">
+      <div style="color:var(--accent);font-family:var(--font-heading);font-weight:var(--fw-bold);font-size:13px;text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);margin-bottom:14px">Planos para produtores</div>
+      <h2 style="font-family:var(--font-display);font-size:clamp(26px,4vw,40px);color:var(--text-primary);margin:0 0 12px;font-weight:var(--fw-black)">Escolha como vender na Minha Loja</h2>
+      <p style="color:var(--text-secondary);font-size:16px;max-width:560px;margin:0 auto">Sem mensalidade obrigatória. Você só paga quando vende.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;align-items:stretch">
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:32px 28px;box-shadow:var(--shadow-card);display:flex;flex-direction:column;gap:18px;transition:transform .25s ease,border-color .25s ease" style-hover="border-color:var(--cyan-neon-35);transform:translateY(-6px)">
+        <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:18px">Starter</div>
+        <div><span style="color:var(--text-primary);font-family:var(--font-display);font-weight:var(--fw-black);font-size:34px">Grátis</span></div>
+        <div style="color:var(--text-muted);font-size:13px">50% de comissão por venda</div>
+        <div class="gvpn-fade-divider"></div>
+        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;color:var(--text-secondary);font-size:14px;flex:1">
+          <li>Produtos ilimitados</li>
+          <li>Checkout e entrega automática</li>
+          <li>Suporte por e-mail</li>
+          <li>Programa de afiliados</li>
+          <li>Seja nosso produtor</li>
+        </ul>
+        <a href="https://loja.goesvpn.com.br" style="display:block;transition:transform .2s ease" style-hover="transform:scale(1.02)" target="_blank"><x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Button" hint-size="100%,44px" size="md" variant="secondary">Começar grátis</x-import></a>
+      </div>
+      <div class="gvpn-shimmer-border" style="background:var(--surface-elevated);border:1px solid var(--cyan-neon-35);border-radius:var(--radius-lg);padding:32px 28px;box-shadow:var(--glow-accent-soft),var(--shadow-elevated);display:flex;flex-direction:column;gap:18px;position:relative;transition:transform .25s ease" style-hover="transform:translateY(-6px)">
+        <span style="position:absolute;top:-13px;left:28px;background:var(--accent);color:var(--text-on-accent);font-size:11px;font-weight:var(--fw-bold);text-transform:uppercase;padding:4px 14px;border-radius:var(--radius-pill);white-space:nowrap">Mais escolhido</span>
+        <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:18px">Pro</div>
+        <div><span style="color:var(--text-primary);font-family:var(--font-display);font-weight:var(--fw-black);font-size:34px">R$ 497</span></div>
+        <div style="color:var(--text-muted);font-size:13px">Pagamento único, sem mensalidade</div>
+        <div class="gvpn-fade-divider"></div>
+        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;color:var(--text-secondary);font-size:14px;flex:1">
+          <li>Tudo do Starter</li>
+          <li>Destaque no catálogo</li>
+          <li>Suporte prioritário</li>
+          <li><strong style="color:var(--text-primary)">Código-fonte completo:</strong> a loja inteira — backend NestJS, frontend Next.js, schema PostgreSQL — com guia de instalação passo a passo para você ou seu time colocar no ar</li>
+        </ul>
+        <a href="https://loja.goesvpn.com.br" style="display:block;transition:transform .2s ease" style-hover="transform:scale(1.02)" target="_blank"><x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Button" hint-size="100%,44px" size="md" variant="primary">Comprar Na Loja</x-import></a>
+      </div>
+      <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:32px 28px;box-shadow:var(--shadow-card);display:flex;flex-direction:column;gap:18px;transition:transform .25s ease,border-color .25s ease" style-hover="border-color:var(--cyan-neon-35);transform:translateY(-6px)">
+        <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:18px">Enterprise</div>
+        <div><span style="color:var(--text-primary);font-family:var(--font-display);font-weight:var(--fw-black);font-size:34px">Sob consulta</span></div>
+        <div style="color:var(--text-muted);font-size:13px">Comissão negociada por volume</div>
+        <div class="gvpn-fade-divider"></div>
+        <ul style="list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;color:var(--text-secondary);font-size:14px;flex:1">
+          <li><strong style="color:var(--text-primary)">Serviço de instalação:</strong> você não precisa tocar em terminal. Configuramos servidor, banco de dados, domínio, SSL e gateways de pagamento — sua loja no ar, testada e pronta para vender</li>
+          <li>Tudo do Pro</li>
+          <li>Gerente de conta dedicado</li>
+          <li>Integrações personalizadas</li>
+        </ul>
+        <a href="https://loja.goesvpn.com.br" style="display:block;transition:transform .2s ease" style-hover="transform:scale(1.02)" target="_blank"><x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Button" hint-size="100%,44px" size="md" variant="secondary">Falar com vendas</x-import></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" style="background:var(--surface-bg-alt);padding:clamp(56px,8vw,96px) 20px">
+    <div style="max-width:800px;margin:0 auto">
+      <div style="text-align:center;margin-bottom:clamp(32px,6vw,48px)">
+        <div style="color:var(--accent);font-family:var(--font-heading);font-weight:var(--fw-bold);font-size:13px;text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);margin-bottom:14px">Dúvidas frequentes</div>
+        <h2 style="font-family:var(--font-display);font-size:clamp(26px,4vw,36px);color:var(--text-primary);margin:0;font-weight:var(--fw-black)">Perguntas frequentes</h2>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <sc-for list="{{ faqs }}" as="f" hint-placeholder-count="9">
+          <div style="background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-md);overflow:hidden">
+            <button onClick="{{ f.toggle }}" style="width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;background:transparent;border:none;padding:18px 20px;cursor:pointer;text-align:left;transition:background .2s ease" style-hover="background:var(--surface-card-hover)">
+              <span style="color:var(--text-primary);font-weight:var(--fw-semibold);font-size:15px">{{ f.q }}</span>
+              <span style="color:var(--accent);font-size:18px;{{ f.iconStyle }}">＋</span>
+            </button>
+            <div style="{{ f.answerStyle }}overflow:hidden">
+              <div style="padding:0 20px 18px;color:var(--text-secondary);font-size:14px;line-height:var(--lh-body)">{{ f.a }}</div>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" style="background:var(--navy);padding:clamp(56px,8vw,88px) 20px">
+    <div style="max-width:640px;margin:0 auto;text-align:center">
+      <div style="color:var(--accent);font-family:var(--font-heading);font-weight:var(--fw-bold);font-size:13px;text-transform:uppercase;letter-spacing:var(--tracking-eyebrow);margin-bottom:14px">Fale com a gente</div>
+      <h2 style="font-family:var(--font-display);color:var(--text-primary);font-size:clamp(24px,4vw,36px);margin:0 0 10px;font-weight:var(--fw-black)">Deixe seus dados que a gente te responde</h2>
+      <p style="color:var(--text-secondary);max-width:460px;margin:0 auto 32px;font-size:15px">Quer vender na Minha Loja ou precisa de um site, SEO, GEO, AEO ou automação para o seu negócio? Preencha o formulário abaixo.</p>
+    </div>
+    <form onSubmit="{{ submitContact }}" style="max-width:640px;margin:0 auto;background:var(--surface-card);border:1px solid var(--border-subtle);border-radius:var(--radius-lg);padding:clamp(24px,4vw,36px);box-shadow:var(--shadow-elevated);display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;text-align:left">
+      <x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Input" hint-size="100%,68px" label="Nome" placeholder="Seu nome completo" value="{{ name }}" onChange="{{ onNameChange }}"></x-import>
+      <x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Input" hint-size="100%,68px" label="E-mail" type="email" placeholder="seu@email.com" value="{{ email }}" onChange="{{ onEmailChange }}"></x-import>
+      <div style="grid-column:1 / -1">
+        <x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Input" hint-size="100%,68px" label="WhatsApp" type="tel" placeholder="(00) 00000-0000" value="{{ whatsapp }}" onChange="{{ onWhatsappChange }}"></x-import>
+      </div>
+      <div style="grid-column:1 / -1;display:flex;flex-direction:column;gap:6px;font-family:var(--font-body)">
+        <label style="font-size:13px;color:var(--text-secondary);font-weight:500">Mensagem</label>
+        <textarea value="{{ message }}" onChange="{{ onMessageChange }}" placeholder="Como podemos ajudar?" rows="4" style="background:var(--surface-elevated);border:1px solid var(--border-default);border-radius:var(--radius-md);padding:12px 16px;color:var(--text-primary);font-size:15px;font-family:var(--font-body);outline:none;resize:vertical;transition:border-color .2s ease" style-focus="border-color:var(--accent)"></textarea>
+      </div>
+      <div style="grid-column:1 / -1;display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+        <x-import component-from-global-scope="GoesVPNDesignSystem_bde8bf.Button" hint-size="auto,48px" size="lg">{{ contactCta }}</x-import>
+        <span style="color:var(--text-muted);font-size:12px">🔒 Seus dados estão seguros. Sem spam, prometemos!</span>
+      </div>
+    </form>
+  </section>
+
+  <footer style="background:var(--black-deep);border-top:1px solid var(--border-subtle);padding:clamp(40px,6vw,56px) 20px 28px">
+    <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:32px">
+      <div>
+        <div style="font-family:var(--font-display);font-weight:var(--fw-black);color:var(--text-primary);font-size:18px;margin-bottom:12px">GoesVPN</div>
+        <p style="color:var(--text-muted);font-size:13px;line-height:var(--lh-body);max-width:240px;margin:0 0 16px">Tecnologia, sites e crescimento digital orientado a busca e IA, dona da loja.goesvpn.com.br.</p>
+        <div style="display:flex;gap:12px">
+          <a href="https://www.instagram.com/goesvpn" target="_blank" rel="noopener" aria-label="Instagram" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Instagram</a>
+          <a href="https://www.linkedin.com/in/gianigoes/" target="_blank" rel="noopener" aria-label="LinkedIn" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">LinkedIn</a>
+          <a href="https://wa.me/5551981651071" target="_blank" rel="noopener" aria-label="WhatsApp" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">WhatsApp</a>
+        </div>
+      </div>
+      <div>
+        <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:13px;margin-bottom:14px">Produto</div>
+        <div style="display:flex;flex-direction:column;gap:10px;color:var(--text-muted);font-size:13px">
+          <a href="#sobre" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Sobre</a>
+          <a href="#como-funciona" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Como funciona</a>
+          <a href="#planos" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Planos</a>
+          <a href="https://loja.goesvpn.com.br" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)" target="_blank">Acessar a loja</a>
+        </div>
+      </div>
+      <div>
+        <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:13px;margin-bottom:14px">Serviços</div>
+        <div style="display:flex;flex-direction:column;gap:10px;color:var(--text-muted);font-size:13px">
+          <a href="#servicos" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Criação de Sites</a>
+          <a href="#servicos" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">SEO</a>
+          <a href="#servicos" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">GEO</a>
+          <a href="#servicos" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">AEO</a>
+          <a href="#servicos" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Automação</a>
+        </div>
+      </div>
+      <div>
+        <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:13px;margin-bottom:14px">Empresa</div>
+        <div style="display:flex;flex-direction:column;gap:10px;color:var(--text-muted);font-size:13px">
+          <a href="#" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Seja um produtor</a>
+          <a href="#" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Programa de afiliados</a>
+          <a href="#" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Trabalhe conosco</a>
+        </div>
+      </div>
+      <div>
+        <div style="color:var(--text-primary);font-weight:var(--fw-bold);font-size:13px;margin-bottom:14px">Suporte</div>
+        <div style="display:flex;flex-direction:column;gap:10px;color:var(--text-muted);font-size:13px">
+          <a href="#faq" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">FAQ</a>
+          <a href="#" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Política de privacidade</a>
+          <a href="#contato" style="color:var(--text-muted);transition:color .2s ease" style-hover="color:var(--accent)">Contato</a>
+        </div>
+      </div>
+    </div>
+    <div style="max-width:1200px;margin:32px auto 0;padding-top:20px;border-top:1px solid var(--border-subtle);display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between;color:var(--text-muted);font-size:12px">
+      <span>© 2026 GoesVPN. Todos os direitos reservados.</span>
+      <span>🔒 Pagamento seguro · ✅ Garantia de 7 dias</span>
+    </div>
+  </footer>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { mobileMenuOpen: false, isMobile: false, openFaq: 0, name: '', email: '', whatsapp: '', message: '', sent: false };
+
+  componentDidMount() {
+    this.checkMobile();
+    this._onResize = () => this.checkMobile();
+    window.addEventListener('resize', this._onResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this._onResize);
+  }
+
+  checkMobile() {
+    this.setState({ isMobile: window.innerWidth < 860 });
+  }
+
+  toggleMenu = () => this.setState(s => ({ mobileMenuOpen: !s.mobileMenuOpen }));
+  closeMenu = () => this.setState({ mobileMenuOpen: false });
+  toggleFaq = (i) => this.setState(s => ({ openFaq: s.openFaq === i ? -1 : i }));
+  onNameChange = (e) => this.setState({ name: e.target.value });
+  onEmailChange = (e) => this.setState({ email: e.target.value });
+  onWhatsappChange = (e) => this.setState({ whatsapp: e.target.value });
+  onMessageChange = (e) => this.setState({ message: e.target.value });
+  submitContact = (e) => { e.preventDefault(); this.setState({ sent: true }); };
+
+  renderVals() {
+    const isMobile = this.state.isMobile;
+    const FAQS = [
+      { q: 'Como funciona a entrega dos produtos?', a: 'Após a confirmação do pagamento, o acesso é liberado automaticamente — sem espera e sem intervenção manual.' },
+      { q: 'Quais formas de pagamento são aceitas?', a: 'Pix, cartão de crédito e boleto bancário, com processamento seguro em todas as transações.' },
+      { q: 'Posso vender meus próprios produtos?', a: 'Sim. Basta se cadastrar como produtor e publicar cursos, e-books, templates, planilhas ou softwares no catálogo.' },
+      { q: 'Existe garantia para o comprador?', a: 'Todas as compras têm garantia de 7 dias. Se não for o que esperava, devolvemos seu dinheiro.' },
+      { q: 'Como funciona o programa de afiliados?', a: 'Afiliados recebem um link exclusivo e ganham comissão por cada venda realizada através dele.' },
+      { q: 'A GoesVPN cria sites para outras empresas?', a: 'Sim. Além da Minha Loja, a GoesVPN desenvolve sites institucionais e landing pages já otimizados para SEO, GEO e AEO desde o primeiro dia.' },
+      { q: 'O que é GEO (Generative Engine Optimization)?', a: 'GEO é o conjunto de técnicas para otimizar um site e seu conteúdo para que IAs generativas, como ChatGPT, Gemini e Perplexity, encontrem, compreendam e recomendem a marca em suas respostas.' },
+      { q: 'O que é AEO (Answer Engine Optimization)?', a: 'AEO é a otimização de conteúdo para aparecer como resposta direta em buscas por voz, AI Overviews e mecanismos de resposta rápida, geralmente usando formatos de pergunta e resposta e dados estruturados.' },
+      { q: 'O que está incluso no serviço de automação?', a: 'Chatbots de atendimento, automação de fluxos no WhatsApp, integrações com CRM e ferramentas como n8n e Zapier, além de automação de processos de vendas e marketing.' },
+    ];
+
+    return {
+      navDisplay: isMobile ? 'none' : 'flex',
+      menuBtnDisplay: isMobile ? 'flex' : 'none',
+      menuIconLabel: this.state.mobileMenuOpen ? '✕' : '☰',
+      mobileOverlayStyle: `display:${isMobile && this.state.mobileMenuOpen ? 'flex' : 'none'};`,
+      toggleMenu: this.toggleMenu,
+      closeMenu: this.closeMenu,
+      name: this.state.name,
+      onNameChange: this.onNameChange,
+      email: this.state.email,
+      onEmailChange: this.onEmailChange,
+      whatsapp: this.state.whatsapp,
+      onWhatsappChange: this.onWhatsappChange,
+      message: this.state.message,
+      onMessageChange: this.onMessageChange,
+      submitContact: this.submitContact,
+      contactCta: this.state.sent ? 'Enviado ✅' : 'Enviar mensagem',
+      faqs: FAQS.map((f, i) => ({
+        q: f.q,
+        a: f.a,
+        toggle: () => this.toggleFaq(i),
+        iconStyle: this.state.openFaq === i ? 'transform:rotate(45deg);transition:transform .2s ease;' : 'transform:rotate(0deg);transition:transform .2s ease;',
+        answerStyle: this.state.openFaq === i ? 'max-height:200px;transition:max-height .3s ease;' : 'max-height:0px;transition:max-height .3s ease;',
+      })),
+    };
+  }
+}
+</script>
+</body>
+</html>
