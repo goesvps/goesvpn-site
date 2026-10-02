@@ -3,25 +3,26 @@
 > A GoesVPN é uma empresa brasileira de tecnologia. Ela opera a loja.goesvpn.com.br, um marketplace de produtos digitais (cursos, e-books, templates, planilhas e software), e presta serviços de criação de sites, SEO, GEO (Generative Engine Optimization), AEO (Answer Engine Optimization) e automação de atendimento/processos para outras empresas.
 
 ## Empresa
-- Nome: GoesVPN
-- País: Brasil
-- Site institucional: https://goesvpn.com.br/
-- Produto principal: https://loja.goesvpn.com.br/ ("Minha Loja") — marketplace onde produtores, afiliados e compradores negociam produtos digitais
-- Contato: formulário em https://goesvpn.com.br/#contato · WhatsApp +55 51 98165-1071
-- Redes: https://www.instagram.com/goesvpn · https://www.linkedin.com/in/gianigoes/
+
+- [Site institucional](https://goesvpn.com.br/): página principal da GoesVPN, empresa brasileira de tecnologia.
+- [Minha Loja](https://loja.goesvpn.com.br/): produto principal, marketplace onde produtores, afiliados e compradores negociam produtos digitais.
+- [Contato](https://goesvpn.com.br/#contato): formulário de contato. WhatsApp: +55 51 98165-1071.
+- [Instagram](https://www.instagram.com/goesvpn): perfil oficial da GoesVPN.
+- [LinkedIn](https://www.linkedin.com/in/gianigoes/): perfil do fundador.
 
 ## Serviços
-- Criação de Sites: sites institucionais e landing pages rápidos, responsivos e estruturados para SEO desde o primeiro código.
-- SEO (Search Engine Optimization): otimização técnica, conteúdo e autoridade de domínio para ranquear no Google.
-- GEO (Generative Engine Optimization): estruturação de conteúdo e dados para que IAs generativas (ChatGPT, Gemini, Perplexity, Claude) encontrem, entendam e recomendem a marca.
-- AEO (Answer Engine Optimization): conteúdo formatado como resposta direta para buscas por voz, AI Overviews e mecanismos de resposta rápida.
-- Automação: chatbots, fluxos de WhatsApp e integrações (CRM, n8n, Zapier) que automatizam atendimento, vendas e processos.
+
+- [Criação de Sites](https://goesvpn.com.br/#servicos): sites institucionais e landing pages rápidos, responsivos e estruturados para SEO desde o primeiro código.
+- [SEO](https://goesvpn.com.br/#servicos): otimização técnica, conteúdo e autoridade de domínio para ranquear no Google.
+- [GEO](https://goesvpn.com.br/#servicos): estruturação de conteúdo e dados para que IAs generativas (ChatGPT, Gemini, Perplexity, Claude) encontrem, entendam e recomendem a marca.
+- [AEO](https://goesvpn.com.br/#servicos): conteúdo formatado como resposta direta para buscas por voz, AI Overviews e mecanismos de resposta rápida.
+- [Automação](https://goesvpn.com.br/#servicos): chatbots, fluxos de WhatsApp e integrações (CRM, n8n, Zapier) que automatizam atendimento, vendas e processos.
 
 ## Marketplace (Minha Loja)
-- Planos para produtores: Starter (grátis, 50% de comissão), Pro (R$ 497 pagamento único, com código-fonte completo da loja) e Enterprise (sob consulta, com instalação assistida).
-- Pagamentos aceitos: Pix, cartão de crédito e boleto.
-- Garantia de 7 dias em todas as compras.
-- Entrega de produtos liberada automaticamente após a confirmação do pagamento.
+
+- [Planos para produtores](https://goesvpn.com.br/#planos): Starter (grátis, 50% de comissão), Pro (R$ 497 pagamento único, com código-fonte completo da loja) e Enterprise (sob consulta, com instalação assistida).
+- [Loja](https://loja.goesvpn.com.br/): pagamentos via Pix, cartão de crédito e boleto; garantia de 7 dias em todas as compras; entrega liberada automaticamente após a confirmação do pagamento.
 
 ## Perguntas frequentes
-Ver a lista completa e atualizada em https://goesvpn.com.br/#faq — inclui definições de GEO e AEO, política de garantia, formas de pagamento e como funciona o programa de afiliados.
+
+- [FAQ](https://goesvpn.com.br/#faq): lista completa e atualizada, com definições de GEO e AEO, política de garantia, formas de pagamento e funcionamento do programa de afiliados.
